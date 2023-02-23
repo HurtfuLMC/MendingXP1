@@ -1,0 +1,17 @@
+name: MendingXP
+version: 1.0
+main: mendingxpplugin.mendingxpplugin.MendingXPPlugin
+api-version: 1.19
+authors: [ HurtfulMC ]
+description: A plugin that allows XP to heal damaged items with Mending.
+
+commands:
+  mendingxpreload:
+    description: Reload the MendingXP plugin configuration file.
+    usage: /mendingxpreload
+    permission: mendingxp.reload
+
+permissions:
+  mendingxp.reload:
+    description: Allows players to reload the MendingXP plugin configuration file.
+    default: op
